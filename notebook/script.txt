@@ -1,0 +1,2 @@
+jupyter nbconvert --to html toc --EmbedImagesPreprocessor.embed_images=True 
+--EmbedImagesPreprocessor.resize=large inception.ipynb 

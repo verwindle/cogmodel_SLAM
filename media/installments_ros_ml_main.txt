@@ -1,0 +1,72 @@
+#######################
+# UNIVERSAL WAY FOR DEPS PULLING
+# rosdep install --from-paths src --ignore-src -r
+#######################
+
+# now how I did it from the beginning
+Dont remember all needed, but you definitely need these:
+pip install rospkg  
+pip install defusedxml  
+pip install keras
+pip install matplotlib  
+sudo apt-get install ros-melodic-costmap-2d
+sudo apt-get install ros-melodic-robot-controllers
+sudo apt-get install ros-melodic-effort-controllers
+sudo apt install ros-melodic-moveit
+#!NOT sure about this 2 now. Think they're needed though#
+sudo apt install ros-melodic-moveit-core
+sudo apt install ros-melodic-moveit-msgs
+#!
+sudo apt install ros-melodic-joint-state-publisher-gui
+pip install tensorflow
+pip install --user --upgrade tensorflow-gpu
+pip install --user --upgrade tensorboard
+pip install keras==2.3.1
+pip install --user --upgrade tensorflow-gpu==1.14.0
+pip install torch==1.4.0+cu100
+-f https://download.pytorch.org/whl/torch_stable.html
+sudo apt install ros-melodic-amcl
+sudo apt install ros-melodic-map-server
+sudo apt install ros-melodic-move-base
+sudo apt install ros-melodic-slam-karto
+sudo apt install ros-melodic-rgbd-launch 
+sudo apt install ros-melodic-robot*
+sudo apt install ros-melodic-controller-manager
+sudo apt install ros-melodic-octomap-ros
+sudo apt install xvfb 
+#gazebo9
+#OpenCV
+
+#! if need upgrade to python3
+sudo apt-get remove python-rosinstall
+sudo apt remove python-rosdistro python-rospkg python-catkin-pkg
+sudo apt-get install python3-rosdistro
+sudo apt-get install python3-catkin-pkg
+sudo apt-get install python3-rosinstall 
+sudo apt install ros-melodic-ros-base
+sudo apt remove python-rospkg
+sudo apt install python3-rospkg
+sudo apt install python3-rosdep
+sudo apt install python3-rosdep-modules
+sudo apt install ros-melodic-python3*
+sudo apt install python3-catkin-pkg
+sudo apt install python3-rosinstall*
+sudo apt install ros-melodic-desktop-full
+sudo apt install ros-melodic-slam*
+# I skipped here autoremove
+# The good thing here is: I scripted apt commands that were missed
+# as I were installing ros fist time
+
+
+# This part was needed for robot_training packages
+sudo apt install ros-melodic-moveit-msgs
+sudo apt install ros-melodic-costmap-2d*
+sudo apt install ros-melodic-moveit-core
+sudo apt install ros-melodic-robot-controllers
+ros-melodic-robot-controllers-interface ros-melodic-robot-controllers-msgs 
+sudo apt install ros-melodic-effort-controllers
+rosdep install --from-paths src --ignore-src -r
+
+# Last attempt
+catkin_make -DPYTHON_VESRION=3.6.9  -DPYTHON_EXECUTABLE=/usr/bin/python3
+
