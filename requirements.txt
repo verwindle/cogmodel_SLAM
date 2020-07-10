@@ -1,6 +1,2 @@
-ROS system
-rtabmap
-cartographer
-jupyter
 ipywidgets
 nbinteract
