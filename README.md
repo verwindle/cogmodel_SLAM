@@ -13,8 +13,14 @@ This was implemented for [Intelligent Transport Laboratory](https://cogmodel.mip
 * [RTAB-Map](http://introlab.github.io/rtabmap/)
 * [Cartographer ROS](https://google-cartographer-ros.readthedocs.io/en/latest/)
 
+## Articles
+* [REAL-TIME 2D AND 3D SLAM USING RTAB-MAP, GMAPPING, AND CARTOGRAPHER PACKAGES](https://www.researchgate.net/publication/326986124_REAL-TIME_2D_AND_3D_SLAM_USING_RTAB-MAP_GMAPPING_AND_CARTOGRAPHER_PACKAGES)
+* [RTAB-Map as an Open-Source Lidar and VisualSLAM Library for Large-Scale and Long-Term OnlineOperation](https://introlab.3it.usherbrooke.ca/mediawiki-introlab/images/7/7a/Labbe18JFR_preprint.pdf)
+
 ## Deps
 
 will be here soon
 
-## Installation instructions are going to appear too
+## Installation instructions
+
+are going to appear too
