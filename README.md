@@ -17,10 +17,13 @@ This was implemented for [Intelligent Transport Laboratory](https://cogmodel.mip
 * [REAL-TIME 2D AND 3D SLAM USING RTAB-MAP, GMAPPING, AND CARTOGRAPHER PACKAGES](https://www.researchgate.net/publication/326986124_REAL-TIME_2D_AND_3D_SLAM_USING_RTAB-MAP_GMAPPING_AND_CARTOGRAPHER_PACKAGES)
 * [RTAB-Map as an Open-Source Lidar and VisualSLAM Library for Large-Scale and Long-Term OnlineOperation](https://introlab.3it.usherbrooke.ca/mediawiki-introlab/images/7/7a/Labbe18JFR_preprint.pdf)
 
-## Deps
+## Main origin
+* [rtabmap ros](wiki.ros.org/rtabmap_ros)
 
-will be here soon
+## Deps && Installation instructions
 
-## Installation instructions
+maybe one day...
 
-are going to appear too
+## Demonstration
+
+![sorry u can't observe](https://github.com/verwindle/cogmodel_SLAM/blob/master/repo_face.gif)
