@@ -1,0 +1,5 @@
+translation_error(%) rotation_error(deg/m) ATE(m)
+ 0: 1.292231 0.006298 22.832556
+ 2: 2.822428 0.069926 3.072507
+
+In total: 1.319100 0.006308
