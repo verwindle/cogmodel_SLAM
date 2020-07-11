@@ -12,7 +12,7 @@ fSlider = FloatSlider(
 )
 
 def on_value_change(b):
-    msg = 'Спасибо за высокую оценку' if fSlider.value >= 8. else 'Понял, в следующий раз будет лучше'
+    msg = 'Спасибо за высокую оценку.\nКак на счет стажировки?' if fSlider.value >= 8. else 'Понял, в следующий раз будет лучше'
     clear_output(wait=True)
     display(fSlider)
     display(HTML(f"<font color=#D61100 size=4>{msg}</font>"))
